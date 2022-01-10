@@ -355,7 +355,7 @@ form button {
     }
     .brand  {
         width: auto;
-        
+        background-color: brown;
     }
 }
 @media screen and (min-width:1500px) {
