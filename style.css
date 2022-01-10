@@ -21,6 +21,7 @@ h1 {
     position: absolute;
 }
 
+
 .lorem {
     color: white;
     width: 90%;
@@ -346,4 +347,20 @@ form button {
 .fofter div h3 {
     line-height: 30px;
     font-weight: 400;
+}
+@media screen and (max-width:700px) {
+    .contacts {
+        width: 100px;
+        background-color: red;
+    }
+    .brand  {
+        width: auto;
+        
+    }
+}
+@media screen and (min-width:1500px) {
+    body {
+        width: auto;
+    }
+    
 }
